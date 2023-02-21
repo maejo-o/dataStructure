@@ -11,7 +11,7 @@ void LInsert(List * plist, LData data)
 {
     if(plist->numOfData > LIST_LEN)
     {
-        puts("¿˙¿Â¿Ã ∫“∞°¥…«’¥œ¥Ÿ.");
+        puts("저장이 불가능 합니다.");
         return;
     }
 
