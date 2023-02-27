@@ -30,8 +30,8 @@ int main(void)
         newNode->data=readData;
         newNode->next=NULL;
         
-        if(head==NULL)
-            head=newNode;
+        if(tail==NULL)
+            tail=newNode;
         else
             tail->next=newNode;
         tail=newNode;
@@ -40,11 +40,11 @@ int main(void)
     
     // 입력받은 데이터의 출력 과정
     printf("Print all data!\n");
-    if(head==NULL)
+    if(tail==NULL)
         printf("No data to print. \n");
     else
     {
-        cur=head;
+        cur=tail;
         printf("%d ", cur->data);
         
         while(cur->next!=NULL)
@@ -60,10 +60,10 @@ int main(void)
         return 0;
     else
     {
-        Node *delNode = head;
-        Node *delNextNode = head->next;
+        Node *delNode = tail;
+        Node *delNextNode = tail->next;
         
-        printf("delete the \"%d\".\n", head->data);
+        printf("delete the \"%d\".\n", tail->data);
         free(delNode);
         
         while(delNextNode!=NULL)
