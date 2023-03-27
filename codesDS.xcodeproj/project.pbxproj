@@ -14,6 +14,8 @@
 		4147655D29CC983B00512725 /* ex2-7.c in Sources */ = {isa = PBXBuildFile; fileRef = 4147655C29CC983B00512725 /* ex2-7.c */; };
 		4147655F29CCA2CA00512725 /* ex2-12.c in Sources */ = {isa = PBXBuildFile; fileRef = 4147655E29CCA2CA00512725 /* ex2-12.c */; };
 		41EFD11229D1F17F00BA0AB1 /* ex2-13.c in Sources */ = {isa = PBXBuildFile; fileRef = 41EFD11129D1F17F00BA0AB1 /* ex2-13.c */; };
+		41EFD11429D1F59600BA0AB1 /* ex2-14.c in Sources */ = {isa = PBXBuildFile; fileRef = 41EFD11329D1F59600BA0AB1 /* ex2-14.c */; };
+		41EFD11629D1F84900BA0AB1 /* ex2-15.c in Sources */ = {isa = PBXBuildFile; fileRef = 41EFD11529D1F84900BA0AB1 /* ex2-15.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -47,6 +49,8 @@
 		4147655C29CC983B00512725 /* ex2-7.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "ex2-7.c"; sourceTree = "<group>"; };
 		4147655E29CCA2CA00512725 /* ex2-12.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "ex2-12.c"; sourceTree = "<group>"; };
 		41EFD11129D1F17F00BA0AB1 /* ex2-13.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "ex2-13.c"; sourceTree = "<group>"; };
+		41EFD11329D1F59600BA0AB1 /* ex2-14.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "ex2-14.c"; sourceTree = "<group>"; };
+		41EFD11529D1F84900BA0AB1 /* ex2-15.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "ex2-15.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				4147655C29CC983B00512725 /* ex2-7.c */,
 				4147655E29CCA2CA00512725 /* ex2-12.c */,
 				41EFD11129D1F17F00BA0AB1 /* ex2-13.c */,
+				41EFD11329D1F59600BA0AB1 /* ex2-14.c */,
+				41EFD11529D1F84900BA0AB1 /* ex2-15.c */,
 			);
 			path = CH02;
 			sourceTree = "<group>";
@@ -192,8 +198,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41EFD11429D1F59600BA0AB1 /* ex2-14.c in Sources */,
 				4147655B29CC971500512725 /* ex2-6.c in Sources */,
 				4147655F29CCA2CA00512725 /* ex2-12.c in Sources */,
+				41EFD11629D1F84900BA0AB1 /* ex2-15.c in Sources */,
 				4147655429CB52E500512725 /* ex2-3.c in Sources */,
 				41EFD11229D1F17F00BA0AB1 /* ex2-13.c in Sources */,
 				4147655929CC93CA00512725 /* ex2-5.c in Sources */,
