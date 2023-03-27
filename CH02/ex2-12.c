@@ -1,4 +1,4 @@
-
+/*
 #include <stdio.h>
 struct employee {
     char name[10];
@@ -23,3 +23,4 @@ int main(void)
     }
     return 0;
 }
+*/
