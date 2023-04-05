@@ -15,6 +15,7 @@
 		4147655F29CCA2CA00512725 /* ex2-12.c in Sources */ = {isa = PBXBuildFile; fileRef = 4147655E29CCA2CA00512725 /* ex2-12.c */; };
 		41578FC729DD9D9000CBC689 /* ex3-1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41578FC629DD9D9000CBC689 /* ex3-1.cpp */; };
 		41578FCC29DDA04800CBC689 /* ex3-2.c in Sources */ = {isa = PBXBuildFile; fileRef = 41578FCB29DDA04800CBC689 /* ex3-2.c */; };
+		41578FCE29DDA1EF00CBC689 /* ex3-3.c in Sources */ = {isa = PBXBuildFile; fileRef = 41578FCD29DDA1EF00CBC689 /* ex3-3.c */; };
 		41EFD11229D1F17F00BA0AB1 /* ex2-13.c in Sources */ = {isa = PBXBuildFile; fileRef = 41EFD11129D1F17F00BA0AB1 /* ex2-13.c */; };
 		41EFD11429D1F59600BA0AB1 /* ex2-14.c in Sources */ = {isa = PBXBuildFile; fileRef = 41EFD11329D1F59600BA0AB1 /* ex2-14.c */; };
 		41EFD11629D1F84900BA0AB1 /* ex2-15.c in Sources */ = {isa = PBXBuildFile; fileRef = 41EFD11529D1F84900BA0AB1 /* ex2-15.c */; };
@@ -62,6 +63,7 @@
 		41578FC429DD9D9000CBC689 /* CH03 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CH03; sourceTree = BUILT_PRODUCTS_DIR; };
 		41578FC629DD9D9000CBC689 /* ex3-1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "ex3-1.cpp"; sourceTree = "<group>"; };
 		41578FCB29DDA04800CBC689 /* ex3-2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "ex3-2.c"; sourceTree = "<group>"; };
+		41578FCD29DDA1EF00CBC689 /* ex3-3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "ex3-3.c"; sourceTree = "<group>"; };
 		41EFD11129D1F17F00BA0AB1 /* ex2-13.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "ex2-13.c"; sourceTree = "<group>"; };
 		41EFD11329D1F59600BA0AB1 /* ex2-14.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "ex2-14.c"; sourceTree = "<group>"; };
 		41EFD11529D1F84900BA0AB1 /* ex2-15.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "ex2-15.c"; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 			children = (
 				41578FC629DD9D9000CBC689 /* ex3-1.cpp */,
 				41578FCB29DDA04800CBC689 /* ex3-2.c */,
+				41578FCD29DDA1EF00CBC689 /* ex3-3.c */,
 			);
 			path = CH03;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41578FCE29DDA1EF00CBC689 /* ex3-3.c in Sources */,
 				41578FC729DD9D9000CBC689 /* ex3-1.cpp in Sources */,
 				41578FCC29DDA04800CBC689 /* ex3-2.c in Sources */,
 			);
