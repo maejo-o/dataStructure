@@ -5,7 +5,7 @@ int insertElement(int L[], int n, int x)
     int i, k=0, move=0;
     for(i=0; i<n; i++)
     {
-        if(L[i]<=x&&x<=L[i+1])
+        if(L[i]<=x && x<=L[i+1])
         {
             k = i+1;
             break;
@@ -23,7 +23,7 @@ int insertElement(int L[], int n, int x)
     return move;
 }
 
-int deleteElement(int [], int n, int x)
+int deleteElement(int L[], int n, int x)
 {
     int i, k=n, move=0;
     for(i = 0; i < n; i++)
@@ -38,7 +38,7 @@ int deleteElement(int [], int n, int x)
     for(i=k; i<n-1; i++)
     {
         L[i]=L[i+1];
-        move++
+        move++;
     }
     return move;
 }

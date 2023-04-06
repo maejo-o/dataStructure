@@ -1,6 +1,6 @@
 
 #include <stdio.h>
-#include <listS.h>
+#include "listS.h"
 int main(void)
 {
     int list[MAX] = {10, 20, 40, 50, 60, 70};
@@ -10,14 +10,14 @@ int main(void)
     {
         printf("%3d ", list[i]);
     }
-    printf("원소의 개수 : %d\n", size);
+    printf("\n원소의 개수 : %d\n", size);
     move = insertElement(list, size, 30);
-    printf("삽입 후 선형리스트 : ");
+    printf("삽입 후 선형리스트 : \n");
     for(i=0; i < size; i++)
     {
         printf("%3d", list[i]);
     }
-    printf("원소의 갯수 : %d\n", ++size);
+    printf("\n원소의 갯수 : %d\n", ++size);
     printf("자리 이동 횟수 : %d\n", move);
     
     move = deleteElement(list, size, 30);
@@ -30,7 +30,7 @@ int main(void)
         {
             printf("%3d ", list[i]);
         }
-        printf("원소의 갯수 : %d\n", --size);
+        printf("\n원소의 갯수 : %d\n", --size);
         printf("자리 이동 횟수 : %d\n", move);
     }
     getchar(); return 0;
