@@ -1,4 +1,4 @@
-
+/*
 #include "listS.h"
 int insertElement(int L[], int n, int x)
 {
@@ -42,3 +42,4 @@ int deleteElement(int L[], int n, int x)
     }
     return move;
 }
+*/

@@ -18,6 +18,8 @@
 		41578FCE29DDA1EF00CBC689 /* ex3-3.c in Sources */ = {isa = PBXBuildFile; fileRef = 41578FCD29DDA1EF00CBC689 /* ex3-3.c */; };
 		41578FD229DE579600CBC689 /* ex3-4.c in Sources */ = {isa = PBXBuildFile; fileRef = 41578FD129DE579600CBC689 /* ex3-4.c */; };
 		41578FD529DE593400CBC689 /* listS.c in Sources */ = {isa = PBXBuildFile; fileRef = 41578FD429DE593400CBC689 /* listS.c */; };
+		41578FE229DF020E00CBC689 /* ex3-5.c in Sources */ = {isa = PBXBuildFile; fileRef = 41578FE129DF020E00CBC689 /* ex3-5.c */; };
+		41578FE529DF0CE700CBC689 /* smTranspose.c in Sources */ = {isa = PBXBuildFile; fileRef = 41578FE429DF0CE700CBC689 /* smTranspose.c */; };
 		41EFD11229D1F17F00BA0AB1 /* ex2-13.c in Sources */ = {isa = PBXBuildFile; fileRef = 41EFD11129D1F17F00BA0AB1 /* ex2-13.c */; };
 		41EFD11429D1F59600BA0AB1 /* ex2-14.c in Sources */ = {isa = PBXBuildFile; fileRef = 41EFD11329D1F59600BA0AB1 /* ex2-14.c */; };
 		41EFD11629D1F84900BA0AB1 /* ex2-15.c in Sources */ = {isa = PBXBuildFile; fileRef = 41EFD11529D1F84900BA0AB1 /* ex2-15.c */; };
@@ -69,6 +71,9 @@
 		41578FD129DE579600CBC689 /* ex3-4.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "ex3-4.c"; sourceTree = "<group>"; };
 		41578FD329DE593400CBC689 /* listS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = listS.h; sourceTree = "<group>"; };
 		41578FD429DE593400CBC689 /* listS.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = listS.c; sourceTree = "<group>"; };
+		41578FE129DF020E00CBC689 /* ex3-5.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "ex3-5.c"; sourceTree = "<group>"; };
+		41578FE329DF0CE700CBC689 /* smTranspose.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = smTranspose.h; sourceTree = "<group>"; };
+		41578FE429DF0CE700CBC689 /* smTranspose.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = smTranspose.c; sourceTree = "<group>"; };
 		41EFD11129D1F17F00BA0AB1 /* ex2-13.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "ex2-13.c"; sourceTree = "<group>"; };
 		41EFD11329D1F59600BA0AB1 /* ex2-14.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "ex2-14.c"; sourceTree = "<group>"; };
 		41EFD11529D1F84900BA0AB1 /* ex2-15.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "ex2-15.c"; sourceTree = "<group>"; };
@@ -151,6 +156,9 @@
 				41578FD129DE579600CBC689 /* ex3-4.c */,
 				41578FD329DE593400CBC689 /* listS.h */,
 				41578FD429DE593400CBC689 /* listS.c */,
+				41578FE129DF020E00CBC689 /* ex3-5.c */,
+				41578FE329DF0CE700CBC689 /* smTranspose.h */,
+				41578FE429DF0CE700CBC689 /* smTranspose.c */,
 			);
 			path = CH03;
 			sourceTree = "<group>";
@@ -277,8 +285,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41578FE229DF020E00CBC689 /* ex3-5.c in Sources */,
 				41578FCE29DDA1EF00CBC689 /* ex3-3.c in Sources */,
 				41578FD229DE579600CBC689 /* ex3-4.c in Sources */,
+				41578FE529DF0CE700CBC689 /* smTranspose.c in Sources */,
 				41578FD529DE593400CBC689 /* listS.c in Sources */,
 				41578FC729DD9D9000CBC689 /* ex3-1.c in Sources */,
 				41578FCC29DDA04800CBC689 /* ex3-2.c in Sources */,
