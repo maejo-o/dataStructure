@@ -1,4 +1,4 @@
-
+/*
 #include <stdio.h>
 #include "InsertLinkedList.h"
 
@@ -27,3 +27,4 @@ int main(void)
     
     getchar(); return 0;
 }
+*/
