@@ -20,6 +20,8 @@
 		41578FD529DE593400CBC689 /* listS.c in Sources */ = {isa = PBXBuildFile; fileRef = 41578FD429DE593400CBC689 /* listS.c */; };
 		41578FE229DF020E00CBC689 /* ex3-5.c in Sources */ = {isa = PBXBuildFile; fileRef = 41578FE129DF020E00CBC689 /* ex3-5.c */; };
 		41578FE529DF0CE700CBC689 /* smTranspose.c in Sources */ = {isa = PBXBuildFile; fileRef = 41578FE429DF0CE700CBC689 /* smTranspose.c */; };
+		416DFCF229E59E9A009BD193 /* CircularLinkedList.c in Sources */ = {isa = PBXBuildFile; fileRef = 416DFCF129E59E9A009BD193 /* CircularLinkedList.c */; };
+		416DFCF429E5A1F5009BD193 /* ex4-3.c in Sources */ = {isa = PBXBuildFile; fileRef = 416DFCF329E5A1F5009BD193 /* ex4-3.c */; };
 		4192303229E31A0F005A3B31 /* ex4-1.c in Sources */ = {isa = PBXBuildFile; fileRef = 4192303129E31A0F005A3B31 /* ex4-1.c */; };
 		4192303829E31A43005A3B31 /* InsertLinkedList.c in Sources */ = {isa = PBXBuildFile; fileRef = 4192303729E31A43005A3B31 /* InsertLinkedList.c */; };
 		4192303B29E33B11005A3B31 /* LinkedList.c in Sources */ = {isa = PBXBuildFile; fileRef = 4192303A29E33B11005A3B31 /* LinkedList.c */; };
@@ -87,6 +89,9 @@
 		41578FE129DF020E00CBC689 /* ex3-5.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "ex3-5.c"; sourceTree = "<group>"; };
 		41578FE329DF0CE700CBC689 /* smTranspose.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = smTranspose.h; sourceTree = "<group>"; };
 		41578FE429DF0CE700CBC689 /* smTranspose.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = smTranspose.c; sourceTree = "<group>"; };
+		416DFCF029E59E9A009BD193 /* CircularLinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircularLinkedList.h; sourceTree = "<group>"; };
+		416DFCF129E59E9A009BD193 /* CircularLinkedList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CircularLinkedList.c; sourceTree = "<group>"; };
+		416DFCF329E5A1F5009BD193 /* ex4-3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "ex4-3.c"; sourceTree = "<group>"; };
 		4192302F29E31A0F005A3B31 /* CH04 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CH04; sourceTree = BUILT_PRODUCTS_DIR; };
 		4192303129E31A0F005A3B31 /* ex4-1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "ex4-1.c"; sourceTree = "<group>"; };
 		4192303629E31A43005A3B31 /* InsertLinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InsertLinkedList.h; sourceTree = "<group>"; };
@@ -201,6 +206,9 @@
 				4192303929E33B11005A3B31 /* LinkedList.h */,
 				4192303A29E33B11005A3B31 /* LinkedList.c */,
 				4192303C29E33B21005A3B31 /* ex4-2.c */,
+				416DFCF029E59E9A009BD193 /* CircularLinkedList.h */,
+				416DFCF129E59E9A009BD193 /* CircularLinkedList.c */,
+				416DFCF329E5A1F5009BD193 /* ex4-3.c */,
 			);
 			path = CH04;
 			sourceTree = "<group>";
@@ -364,6 +372,8 @@
 			files = (
 				4192303D29E33B21005A3B31 /* ex4-2.c in Sources */,
 				4192303229E31A0F005A3B31 /* ex4-1.c in Sources */,
+				416DFCF229E59E9A009BD193 /* CircularLinkedList.c in Sources */,
+				416DFCF429E5A1F5009BD193 /* ex4-3.c in Sources */,
 				4192303B29E33B11005A3B31 /* LinkedList.c in Sources */,
 				4192303829E31A43005A3B31 /* InsertLinkedList.c in Sources */,
 			);
