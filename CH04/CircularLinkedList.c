@@ -43,7 +43,7 @@ void insertFirstNode(linkedList_h* CL, char* x)
     else
     {
         temp = CL -> head;
-        while(temp -> link != Cl -> head)
+        while(temp -> link != CL -> head)
         {
             temp = temp -> link;
         }
