@@ -1,4 +1,4 @@
-
+/*
 #define _CRT_NO_WARNINGS
 #include <stdio.h>
 #include <string.h>
@@ -111,3 +111,4 @@ listNode* searchNode(linkedList_h* Cl, char* x)
     }while(temp != CL -> head);
     return NULL;
 }
+*/
