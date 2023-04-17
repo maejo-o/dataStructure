@@ -22,6 +22,8 @@
 		41578FE529DF0CE700CBC689 /* smTranspose.c in Sources */ = {isa = PBXBuildFile; fileRef = 41578FE429DF0CE700CBC689 /* smTranspose.c */; };
 		415B137A29ED7F86008F6F9C /* ex5-1.c in Sources */ = {isa = PBXBuildFile; fileRef = 415B137929ED7F86008F6F9C /* ex5-1.c */; };
 		415B138029ED7FA2008F6F9C /* stackS.c in Sources */ = {isa = PBXBuildFile; fileRef = 415B137F29ED7FA2008F6F9C /* stackS.c */; };
+		415B138229ED86FD008F6F9C /* ex5-2.c in Sources */ = {isa = PBXBuildFile; fileRef = 415B138129ED86FD008F6F9C /* ex5-2.c */; };
+		415B138529ED871D008F6F9C /* StackL.c in Sources */ = {isa = PBXBuildFile; fileRef = 415B138429ED871D008F6F9C /* StackL.c */; };
 		416DFCF229E59E9A009BD193 /* CircularLinkedList.c in Sources */ = {isa = PBXBuildFile; fileRef = 416DFCF129E59E9A009BD193 /* CircularLinkedList.c */; };
 		416DFCF429E5A1F5009BD193 /* ex4-3.c in Sources */ = {isa = PBXBuildFile; fileRef = 416DFCF329E5A1F5009BD193 /* ex4-3.c */; };
 		4192303229E31A0F005A3B31 /* ex4-1.c in Sources */ = {isa = PBXBuildFile; fileRef = 4192303129E31A0F005A3B31 /* ex4-1.c */; };
@@ -104,6 +106,9 @@
 		415B137929ED7F86008F6F9C /* ex5-1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "ex5-1.c"; sourceTree = "<group>"; };
 		415B137E29ED7FA2008F6F9C /* stackS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stackS.h; sourceTree = "<group>"; };
 		415B137F29ED7FA2008F6F9C /* stackS.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = stackS.c; sourceTree = "<group>"; };
+		415B138129ED86FD008F6F9C /* ex5-2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "ex5-2.c"; sourceTree = "<group>"; };
+		415B138329ED871D008F6F9C /* StackL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StackL.h; sourceTree = "<group>"; };
+		415B138429ED871D008F6F9C /* StackL.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = StackL.c; sourceTree = "<group>"; };
 		416DFCF029E59E9A009BD193 /* CircularLinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircularLinkedList.h; sourceTree = "<group>"; };
 		416DFCF129E59E9A009BD193 /* CircularLinkedList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CircularLinkedList.c; sourceTree = "<group>"; };
 		416DFCF329E5A1F5009BD193 /* ex4-3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "ex4-3.c"; sourceTree = "<group>"; };
@@ -227,6 +232,9 @@
 				415B137929ED7F86008F6F9C /* ex5-1.c */,
 				415B137E29ED7FA2008F6F9C /* stackS.h */,
 				415B137F29ED7FA2008F6F9C /* stackS.c */,
+				415B138129ED86FD008F6F9C /* ex5-2.c */,
+				415B138329ED871D008F6F9C /* StackL.h */,
+				415B138429ED871D008F6F9C /* StackL.c */,
 			);
 			path = CH05;
 			sourceTree = "<group>";
@@ -425,8 +433,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				415B138229ED86FD008F6F9C /* ex5-2.c in Sources */,
 				415B138029ED7FA2008F6F9C /* stackS.c in Sources */,
 				415B137A29ED7F86008F6F9C /* ex5-1.c in Sources */,
+				415B138529ED871D008F6F9C /* StackL.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

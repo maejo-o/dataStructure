@@ -1,3 +1,4 @@
+/*
 //
 //  stackS.c
 //  CH05
@@ -62,3 +63,4 @@ void printStack(void)
     }
     printf("] \n");
 }
+*/

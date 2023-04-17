@@ -1,12 +1,20 @@
-/*
+//
+//  ex5-2.c
+//  CH05
+//
+//  Created by 이지수 on 2023/04/17.
+//
+
 #include <stdio.h>
-#include "stackS.h"
+#include "StackL.h"
 
 int main(void)
 {
     element item;
-    printf("** 순차 스택 연산 ** \n");
+    top = NULL;
+    printf("** 연결 스택 연산 ** \n");
     printStack();
+    
     push(1);
     printStack();
     push(2);
@@ -33,4 +41,3 @@ int main(void)
     getchar();
     return 0;
 }
-*/
