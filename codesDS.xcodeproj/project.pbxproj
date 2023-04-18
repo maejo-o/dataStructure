@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		413FEB7229EEDDDA00B196FF /* 미친과제.c in Sources */ = {isa = PBXBuildFile; fileRef = 413FEB7129EEDDDA00B196FF /* 미친과제.c */; };
+		413FEB7529EEDE3700B196FF /* 진짜미친과제.c in Sources */ = {isa = PBXBuildFile; fileRef = 413FEB7429EEDE3700B196FF /* 진짜미친과제.c */; };
 		4147654729CB52BB00512725 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 4147654629CB52BB00512725 /* main.c */; };
 		4147655429CB52E500512725 /* ex2-3.c in Sources */ = {isa = PBXBuildFile; fileRef = 4147655329CB52E500512725 /* ex2-3.c */; };
 		4147655929CC93CA00512725 /* ex2-5.c in Sources */ = {isa = PBXBuildFile; fileRef = 4147655829CC93CA00512725 /* ex2-5.c */; };
@@ -86,6 +87,8 @@
 
 /* Begin PBXFileReference section */
 		413FEB7129EEDDDA00B196FF /* 미친과제.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "미친과제.c"; sourceTree = "<group>"; };
+		413FEB7329EEDE3700B196FF /* 진짜미친과제.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "진짜미친과제.h"; sourceTree = "<group>"; };
+		413FEB7429EEDE3700B196FF /* 진짜미친과제.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "진짜미친과제.c"; sourceTree = "<group>"; };
 		4147654329CB52BB00512725 /* codesDS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = codesDS; sourceTree = BUILT_PRODUCTS_DIR; };
 		4147654629CB52BB00512725 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		4147655129CB52E500512725 /* CH02 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CH02; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -238,6 +241,8 @@
 				415B138329ED871D008F6F9C /* StackL.h */,
 				415B138429ED871D008F6F9C /* StackL.c */,
 				413FEB7129EEDDDA00B196FF /* 미친과제.c */,
+				413FEB7329EEDE3700B196FF /* 진짜미친과제.h */,
+				413FEB7429EEDE3700B196FF /* 진짜미친과제.c */,
 			);
 			path = CH05;
 			sourceTree = "<group>";
@@ -436,6 +441,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				413FEB7529EEDE3700B196FF /* 진짜미친과제.c in Sources */,
 				415B138229ED86FD008F6F9C /* ex5-2.c in Sources */,
 				413FEB7229EEDDDA00B196FF /* 미친과제.c in Sources */,
 				415B138029ED7FA2008F6F9C /* stackS.c in Sources */,
