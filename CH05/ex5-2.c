@@ -17,6 +17,7 @@ int main(void)
     
     push(1);
     printStack();
+    
     push(2);
     printStack();
     
