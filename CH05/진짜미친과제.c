@@ -27,7 +27,8 @@ int main(void)
     
     printf("(5) 리스트 순서를 역순으로 바꾸기 !\n");
     reverse(L);
-       printList(L);
+       
+    printList(L);
        freeLinkedList_h(L);
        getchar();
 
