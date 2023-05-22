@@ -31,6 +31,7 @@
 		41911B062A1B984800F43E9C /* ex7-1.c in Sources */ = {isa = PBXBuildFile; fileRef = 41911B052A1B984800F43E9C /* ex7-1.c */; };
 		41911B0C2A1B987200F43E9C /* traversalBT.c in Sources */ = {isa = PBXBuildFile; fileRef = 41911B0B2A1B987200F43E9C /* traversalBT.c */; };
 		41911B0F2A1B9FC400F43E9C /* folderSize.c in Sources */ = {isa = PBXBuildFile; fileRef = 41911B0E2A1B9FC400F43E9C /* folderSize.c */; };
+		41911B112A1B9FEE00F43E9C /* ex7-2.c in Sources */ = {isa = PBXBuildFile; fileRef = 41911B102A1B9FEE00F43E9C /* ex7-2.c */; };
 		4192303229E31A0F005A3B31 /* ex4-1.c in Sources */ = {isa = PBXBuildFile; fileRef = 4192303129E31A0F005A3B31 /* ex4-1.c */; };
 		4192303829E31A43005A3B31 /* InsertLinkedList.c in Sources */ = {isa = PBXBuildFile; fileRef = 4192303729E31A43005A3B31 /* InsertLinkedList.c */; };
 		4192303B29E33B11005A3B31 /* LinkedList.c in Sources */ = {isa = PBXBuildFile; fileRef = 4192303A29E33B11005A3B31 /* LinkedList.c */; };
@@ -135,6 +136,7 @@
 		41911B0B2A1B987200F43E9C /* traversalBT.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = traversalBT.c; sourceTree = "<group>"; };
 		41911B0D2A1B9FC400F43E9C /* folderSize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = folderSize.h; sourceTree = "<group>"; };
 		41911B0E2A1B9FC400F43E9C /* folderSize.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = folderSize.c; sourceTree = "<group>"; };
+		41911B102A1B9FEE00F43E9C /* ex7-2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "ex7-2.c"; sourceTree = "<group>"; };
 		4192302F29E31A0F005A3B31 /* CH04 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CH04; sourceTree = BUILT_PRODUCTS_DIR; };
 		4192303129E31A0F005A3B31 /* ex4-1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "ex4-1.c"; sourceTree = "<group>"; };
 		4192303629E31A43005A3B31 /* InsertLinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InsertLinkedList.h; sourceTree = "<group>"; };
@@ -282,6 +284,7 @@
 				41911B0B2A1B987200F43E9C /* traversalBT.c */,
 				41911B0D2A1B9FC400F43E9C /* folderSize.h */,
 				41911B0E2A1B9FC400F43E9C /* folderSize.c */,
+				41911B102A1B9FEE00F43E9C /* ex7-2.c */,
 			);
 			path = CH07;
 			sourceTree = "<group>";
@@ -517,6 +520,7 @@
 				41911B0C2A1B987200F43E9C /* traversalBT.c in Sources */,
 				41911B0F2A1B9FC400F43E9C /* folderSize.c in Sources */,
 				41911B062A1B984800F43E9C /* ex7-1.c in Sources */,
+				41911B112A1B9FEE00F43E9C /* ex7-2.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
