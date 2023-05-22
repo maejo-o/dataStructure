@@ -4,6 +4,7 @@
 //
 //  Created by 이지수 on 2023/05/22.
 //
+/*
 #include <stdio.h>
 #include <stdlib.h>
 #include "traversalBT.h"
@@ -43,3 +44,4 @@ void post_order(treeNode* root) {
         printf("%c ", root->data); // D
     }
 }
+*/
