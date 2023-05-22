@@ -5,6 +5,7 @@
 //  Created by 이지수 on 2023/05/22.
 //
 #include <stdio.h>
+#include <stdlib.h>
 #include "folderSize.h"
 
 // size 를 루트 노드의 데이터필드로 하여 왼쪽과 오른쪽 서브 트리를 연결하는 연산
