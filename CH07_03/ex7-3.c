@@ -19,4 +19,14 @@ int main(void) {
     treeThNode* n2 = makeRootThNode('*', n4, n5, 0);
     
     treeThNode* n1 = makeRootThNode('-', n2, n3, 0);
+    
+    n4->right = n2;
+    n5->right = n1;
+    n6->right = n3;
+    
+    printf("스레드 이진 트리의 중위 순회: ");
+    threadInorder(n1);
+    printf("\n");
+    
+    getchar(); return 0;
 }
