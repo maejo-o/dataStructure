@@ -5,9 +5,13 @@
 //  Created by 이지수 on 2023/05/22.
 //
 
-#ifndef folderSize_h
-#define folderSize_h
+#pragma once
+int FolderSize;
+typedef struct treeNode {
+    int size;
+    struct treeNode* left;
+    struct treeNode* right;
+} treeNode;
 
-#include <stdio.h>
-
-#endif /* folderSize_h */
+treeNode* makeRootNode(int size, treeNode* leftNode, treeNode* rightNode);
+int postorder_FolderSize(treeNode* root);
