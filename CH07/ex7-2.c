@@ -10,20 +10,20 @@
 
 int main(void) {
     // make binary tree
-    treeNode* F11 = makeRootNode(120, NULL, NULL);
-    treeNode* F10 = makeRootNode(55, NULL, NULL);
-    treeNode* F9 = makeRootNode(100, NULL, NULL);
-    treeNode* F8 = makeRootNode(200, NULL, NULL);
+    treeNode* F11 = make_RootNode(120, NULL, NULL);
+    treeNode* F10 = make_RootNode(55, NULL, NULL);
+    treeNode* F9 = make_RootNode(100, NULL, NULL);
+    treeNode* F8 = make_RootNode(200, NULL, NULL);
     
-    treeNode* F7 = makeRootNode(68, F8, F9);
-    treeNode* F6 = makeRootNode(40, NULL, NULL);
-    treeNode* F5 = makeRootNode(15, NULL, NULL);
-    treeNode* F4 = makeRootNode(2, F8, F9);
+    treeNode* F7 = make_RootNode(68, F8, F9);
+    treeNode* F6 = make_RootNode(40, NULL, NULL);
+    treeNode* F5 = make_RootNode(15, NULL, NULL);
+    treeNode* F4 = make_RootNode(2, F8, F9);
     
-    treeNode* F3 = makeRootNode(10, F6, F7);
-    treeNode* F2 = makeRootNode(0, F4, F5);
+    treeNode* F3 = make_RootNode(10, F6, F7);
+    treeNode* F2 = make_RootNode(0, F4, F5);
     
-    treeNode* F1 = makeRootNode(0, F2, F3);
+    treeNode* F1 = make_RootNode(0, F2, F3);
     
     FolderSize = 0;
     printf("C:\\ storage gauge: %dM\n", postorder_FolderSize(F2));

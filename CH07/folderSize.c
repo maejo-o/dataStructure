@@ -9,7 +9,7 @@
 #include "folderSize.h"
 
 // size 를 루트 노드의 데이터필드로 하여 왼쪽과 오른쪽 서브 트리를 연결하는 연산
-treeNode* makeRootNode(int size, treeNode* leftNode, treeNode* rightNode) {
+treeNode* make_RootNode(int size, treeNode* leftNode, treeNode* rightNode) {
     treeNode* root = (treeNode*)malloc(sizeof(treeNode));
     root->size = size;
     root->left = leftNode;

@@ -4,7 +4,7 @@
 //
 //  Created by 이지수 on 2023/05/22.
 //
-
+/*
 #include <stdio.h>
 #include "traversalBT.h"
 
@@ -35,3 +35,4 @@ int main(void) {
     getchar(); return 0;
 
 }
+*/

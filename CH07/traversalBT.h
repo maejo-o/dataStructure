@@ -5,7 +5,7 @@
 //  Created by 이지수 on 2023/05/22.
 //
 
-
+/*
 #include <stdio.h>
 #pragma once
 typedef char element;
@@ -20,3 +20,4 @@ treeNode* makeRootNode(element data, treeNode* leftNode, treeNode* rightNode);
 void pre_order(treeNode* root);
 void in_order(treeNode* root);
 void post_order(treeNode* root);
+*/
