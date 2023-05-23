@@ -5,9 +5,13 @@
 //  Created by 이지수 on 2023/05/23.
 //
 
-#ifndef node_h
-#define node_h
+#pragma once
+typedef char element;
 
-#include <stdio.h>
+typedef struct treeNode {
+    element key;
+    struct treeNode* left;
+    struct treeNode* right;
+} treeNode;
 
-#endif /* node_h */
+void displayInorder(treeNode* root);
