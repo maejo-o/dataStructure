@@ -40,6 +40,7 @@
 		4192303D29E33B21005A3B31 /* ex4-2.c in Sources */ = {isa = PBXBuildFile; fileRef = 4192303C29E33B21005A3B31 /* ex4-2.c */; };
 		41DC3F052A1CDA8B00789FF3 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 41DC3F042A1CDA8B00789FF3 /* main.c */; };
 		41DC3F0B2A1CDA9E00789FF3 /* node.c in Sources */ = {isa = PBXBuildFile; fileRef = 41DC3F0A2A1CDA9E00789FF3 /* node.c */; };
+		41DC3F0E2A1CDBB200789FF3 /* bst.c in Sources */ = {isa = PBXBuildFile; fileRef = 41DC3F0D2A1CDBB200789FF3 /* bst.c */; };
 		41EFD11229D1F17F00BA0AB1 /* ex2-13.c in Sources */ = {isa = PBXBuildFile; fileRef = 41EFD11129D1F17F00BA0AB1 /* ex2-13.c */; };
 		41EFD11429D1F59600BA0AB1 /* ex2-14.c in Sources */ = {isa = PBXBuildFile; fileRef = 41EFD11329D1F59600BA0AB1 /* ex2-14.c */; };
 		41EFD11629D1F84900BA0AB1 /* ex2-15.c in Sources */ = {isa = PBXBuildFile; fileRef = 41EFD11529D1F84900BA0AB1 /* ex2-15.c */; };
@@ -174,6 +175,8 @@
 		41DC3F042A1CDA8B00789FF3 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		41DC3F092A1CDA9E00789FF3 /* node.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = node.h; sourceTree = "<group>"; };
 		41DC3F0A2A1CDA9E00789FF3 /* node.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = node.c; sourceTree = "<group>"; };
+		41DC3F0C2A1CDBB200789FF3 /* bst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bst.h; sourceTree = "<group>"; };
+		41DC3F0D2A1CDBB200789FF3 /* bst.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bst.c; sourceTree = "<group>"; };
 		41EFD11129D1F17F00BA0AB1 /* ex2-13.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "ex2-13.c"; sourceTree = "<group>"; };
 		41EFD11329D1F59600BA0AB1 /* ex2-14.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "ex2-14.c"; sourceTree = "<group>"; };
 		41EFD11529D1F84900BA0AB1 /* ex2-15.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "ex2-15.c"; sourceTree = "<group>"; };
@@ -369,6 +372,8 @@
 				41DC3F042A1CDA8B00789FF3 /* main.c */,
 				41DC3F092A1CDA9E00789FF3 /* node.h */,
 				41DC3F0A2A1CDA9E00789FF3 /* node.c */,
+				41DC3F0C2A1CDBB200789FF3 /* bst.h */,
+				41DC3F0D2A1CDBB200789FF3 /* bst.c */,
 			);
 			path = CH07_04;
 			sourceTree = "<group>";
@@ -660,6 +665,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41DC3F0E2A1CDBB200789FF3 /* bst.c in Sources */,
 				41DC3F052A1CDA8B00789FF3 /* main.c in Sources */,
 				41DC3F0B2A1CDA9E00789FF3 /* node.c in Sources */,
 			);
