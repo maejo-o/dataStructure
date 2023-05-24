@@ -50,7 +50,7 @@ void deleteBSTNode(treeNode* root, element key) {
     treeNode* parent, *p, *succ, *succ_parent;
     treeNode* child;
     
-    parent == NULL;
+    parent = NULL;
     p = root;
     while((p != NULL) && (p->key != key)) { // 삭제할 노드의 위치 탐색
         parent = p;
@@ -68,9 +68,9 @@ void deleteBSTNode(treeNode* root, element key) {
     if((p->left == NULL) && (p->right == NULL)) {
         if(parent != NULL) {
             if(parent->left == p)
-                parent->left == NULL;
+                parent->left = NULL;
             else
-                parent->right = child;
+                child = parent->right;
         }
         else
             root = NULL;
